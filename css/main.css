@@ -1,5 +1,8 @@
 html {
   box-sizing: border-box;
+  line-height: 1.5;
+  font-family: "Open Sans", sans-serif;
+
 }
 
 *, *::before, *::after {
@@ -7,9 +10,28 @@ html {
 }
 
 .img-flex {
-  max-height: 500px;
+  display: block;
+  width: 100%;
 }
 
-.banner
+div h2 {
+  font-size: 4em;
+  color: #fff;
+  display: inline;
+  background: rgba(0, 0, 0, .5);
+  line-height: 1.4;
+}
 
-font-family: 'Open Sans', sans-serif;
+div p {
+  font-size: 2rem;
+  font-style: italic;
+}
+
+.banner-text {
+  width: 100%;
+  max-width: 50em;
+}
+
+.banner {
+  max-height: 500px;
+}
