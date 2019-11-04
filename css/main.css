@@ -1,0 +1,15 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.img-flex {
+  max-height: 500px;
+}
+
+.banner
+
+font-family: 'Open Sans', sans-serif;
