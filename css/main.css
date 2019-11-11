@@ -2,11 +2,14 @@ html {
   box-sizing: border-box;
   line-height: 1.5;
   font-family: "Open Sans", sans-serif;
-
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  margin: 0;
 }
 
 .img-flex {
@@ -15,7 +18,7 @@ html {
 }
 
 div h2 {
-  font-size: 4em;
+  font-size: 4rem;
   color: #fff;
   display: inline;
   background: rgba(0, 0, 0, .5);
@@ -25,13 +28,24 @@ div h2 {
 div p {
   font-size: 2rem;
   font-style: italic;
+  margin: 0;
+  padding-top: 1em;
 }
 
 .banner-text {
   width: 100%;
   max-width: 50em;
+  position: absolute;
+  bottom: .5em;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 1em;
+  margin-left: 1.5em;
+  margin-right: 1.5em;
 }
 
 .banner {
   max-height: 500px;
+  position: relative;
+  overflow: hidden;
 }
